@@ -21,4 +21,8 @@ items:
     target: "/fr/publications/vestibulum-diam-dolor/"
     kind: page
     children: []
+  - title: Publication 2
+    target: "/fr/publications/publication-2/"
+    kind: page
+    children: []
 
