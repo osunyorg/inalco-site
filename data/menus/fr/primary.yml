@@ -16,5 +16,9 @@ items:
 - title: Publications
   target: "/fr/publications/"
   kind: page
-  children: []
+  children:
+  - title: Vestibulum diam dolor
+    target: "/fr/publications/vestibulum-diam-dolor/"
+    kind: page
+    children: []
 
