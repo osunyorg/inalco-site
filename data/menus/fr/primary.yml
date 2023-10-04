@@ -25,4 +25,8 @@ items:
     target: "/fr/publications/publication-2/"
     kind: page
     children: []
+- title: Agenda
+  target: "/fr/agenda/"
+  kind: page
+  children: []
 
