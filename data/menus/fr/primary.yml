@@ -5,7 +5,7 @@ items:
   target: "/fr/actualites/"
   kind: page
   children: []
-- title: Équipe
+- title: Présentation de l'équipe
   target: "/fr/equipe/"
   kind: page
   children: []
