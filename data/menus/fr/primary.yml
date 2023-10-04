@@ -13,4 +13,8 @@ items:
   target: "/fr/organisations/"
   kind: page
   children: []
+- title: Publications
+  target: "/fr/publications/"
+  kind: page
+  children: []
 
