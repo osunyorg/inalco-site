@@ -6,9 +6,11 @@ en:
   languageCode: en
   languageName: English
   permalinks:
+    persons: /equipe/:slug/
 fr:
   title: Site de test
   contentDir: content/fr
   languageCode: fr
   languageName: Français
   permalinks:
+    persons: /equipe/:slug/
