@@ -1,12 +1,16 @@
 ---
 title: Main menu
 items:
+- title: Posts
+  target: "/en/posts/"
+  kind: page
+  children: []
 - title: Équipe
   target: "/en/equipe/"
   kind: page
   children: []
-- title: Posts
-  target: "/en/posts/"
+- title: Organizations
+  target: "/en/organizations/"
   kind: page
   children: []
 - title: Agenda
