@@ -51,20 +51,28 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 99
+  seconds: 101
   text: >-
     2 minutes
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Lorem ipsum dolor sit amet
-    slug: "lorem-ipsum-dolor-sit-amet"
-    position: 1
-    rank: 2
+    slug: >-
+      lorem-ipsum-dolor-sit-amet
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
       Nunc in justo dapibus
+    slug: >-
+      nunc-in-justo-dapibus
     ranks:
       self: 3
     data:
@@ -84,17 +92,24 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Nullam nisl libero
-    slug: "nullam-nisl-libero"
-    position: 2
-    rank: 2
+    slug: >-
+      nullam-nisl-libero
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
       Sed venenatis
+    slug: >-
+      sed-venenatis
     ranks:
       self: 3
     data:
@@ -111,7 +126,6 @@ contents:
 
       credit: >-
         
-
 
 
 
