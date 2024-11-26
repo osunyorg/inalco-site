@@ -5,14 +5,17 @@ items:
   target: "/fr/actualites/"
   kind: page
   children: []
+  file: content/fr/posts/_index.html
 - title: Présentation de l'équipe
   target: "/fr/equipe/"
   kind: page
   children: []
+  file: content/fr/persons/_index.html
 - title: Organisations
   target: "/fr/organisations/"
   kind: page
   children: []
+  file: content/fr/organizations/_index.html
 - title: Publications
   target: "/fr/publications/"
   kind: page
@@ -21,12 +24,16 @@ items:
     target: "/fr/publications/vestibulum-diam-dolor/"
     kind: page
     children: []
+    file: content/fr/pages/publications/vestibulum-diam-dolor/_index.html
   - title: Publication 2
     target: "/fr/publications/publication-2/"
     kind: page
     children: []
+    file: content/fr/pages/publications/publication-2/_index.html
+  file: content/fr/pages/publications/_index.html
 - title: Agenda
   target: "/fr/agenda/"
   kind: page
   children: []
+  file: content/fr/events/_index.html
 
