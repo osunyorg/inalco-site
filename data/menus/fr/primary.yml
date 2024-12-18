@@ -4,34 +4,40 @@ items:
 - title: Actualités
   target: "/fr/actualites/"
   kind: page
+  new_tab: false
   children: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Présentation de l'équipe
   target: "/fr/equipe/"
   kind: page
+  new_tab: false
   children: []
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Organisations
   target: "/fr/organisations/"
   kind: page
+  new_tab: false
   children: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
 - title: Publications
   target: "/fr/publications/"
   kind: page
+  new_tab: false
   children:
   - title: Vestibulum diam dolor
     target: "/fr/publications/vestibulum-diam-dolor/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/publications/vestibulum-diam-dolor"
     file: content/fr/pages/publications/vestibulum-diam-dolor/_index.html
   - title: Publication 2
     target: "/fr/publications/publication-2/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/publications/publication-2"
     file: content/fr/pages/publications/publication-2/_index.html
@@ -40,6 +46,7 @@ items:
 - title: Agenda
   target: "/fr/agenda/"
   kind: page
+  new_tab: false
   children: []
   path: "/events"
   file: content/fr/events/_index.html
