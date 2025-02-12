@@ -2,6 +2,11 @@
 
 baseURL: https://inalco-site.web.deuxfleurs.fr
 
+## OSUNY
+osuny:
+  website:
+    id: f7ea7d80-2b93-4395-a78e-cbcce409ad6e
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: true
