@@ -2,59 +2,77 @@
 title: Menu principal
 items:
 - title: Actualités
+  slug: actualites
   target: "/fr/actualites/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Présentation de l'équipe
+  slug: presentation-de-l-equipe
   target: "/fr/equipe/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Organisations
+  slug: organisations
   target: "/fr/organisations/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
 - title: Publications
+  slug: publications
   target: "/fr/publications/"
   kind: page
   new_tab: false
   children:
   - title: Vestibulum diam dolor
+    slug: vestibulum-diam-dolor
     target: "/fr/publications/vestibulum-diam-dolor/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/publications/vestibulum-diam-dolor"
     file: content/fr/pages/publications/vestibulum-diam-dolor/_index.html
   - title: Publication 2
+    slug: publication-2
     target: "/fr/publications/publication-2/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/publications/publication-2"
     file: content/fr/pages/publications/publication-2/_index.html
+  descendants_targets:
+  - "/fr/publications/publication-2/"
+  - "/fr/publications/vestibulum-diam-dolor/"
   path: "/pages/publications"
   file: content/fr/pages/publications/_index.html
 - title: Agenda
+  slug: agenda
   target: "/fr/agenda/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/events"
   file: content/fr/events/_index.html
 - title: Expositions
+  slug: expositions
   target: "/fr/expositions/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/exhibitions"
   file: content/fr/exhibitions/_index.html
 
